@@ -33,7 +33,7 @@ export default function Calculator() {
     setNum(0)
   }
   function calculate() {
-    if (operator === '/') {
+    if (operator == '/') {
       setNum(parseFloat(oldNum) / parseFloat(num))
     } else if (operator === 'X') {
       setNum(parseFloat(oldNum) * parseFloat(num))
